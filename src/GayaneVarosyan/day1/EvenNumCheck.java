@@ -1,8 +1,8 @@
-package GayaneVarosyan.day1;
+package GayaneVarosyan.Day1;
 
 public class EvenNumCheck {
-    public  static boolean evenNumCheck(int num) {
-       return num % 2 == 0;
+    public static boolean evenNumCheck(int num) {
+        return num % 2 == 0;
     }
     static void main() {
         int num = 10;

@@ -31,9 +31,7 @@ public class LightBuld {
     private void printStatus() {
         String status = isOn ? "ON" : "OFF";
         System.out.println("LightBuld is " + status + " with brightness " + brightness + "%.");
-    }
-
-    static void main() {
+    }    static void main() {
         LightBuld room1 = new LightBuld();
         LightBuld room2 = new LightBuld();
         room1.printStatus();

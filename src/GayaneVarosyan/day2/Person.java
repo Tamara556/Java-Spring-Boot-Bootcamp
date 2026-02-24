@@ -17,7 +17,7 @@ public class Person {
         String name = "Alice";
         int age = 2;
 
-        TamaraMurazyan.Day2.Person person = new TamaraMurazyan.Day2.Person(name, age);
+        Person person = new Person(name, age);
         System.out.println("Is " + person.name + " an adult? " + isAdult(person.age));
     }
 }
